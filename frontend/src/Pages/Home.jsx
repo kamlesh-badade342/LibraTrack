@@ -1,6 +1,7 @@
 import React from 'react'
 
 import About from '../Components/About'
+import Header from '../Components/Header'
 import Footer from '../Components/Footer'
 import ImageSlider from '../Components/ImageSlider'
 import News from '../Components/News'
@@ -14,6 +15,7 @@ import WelcomeBox from '../Components/WelcomeBox'
 function Home() {
     return (
         <div id='home'>
+            <Header/>
             <ImageSlider/>
             <WelcomeBox/>
             <About/>
